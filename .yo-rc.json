@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "top-navigations",
+    "libraryId": "9ee4836a-40dc-4ec0-928e-ab9b3d2abfab",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TopNavigations",
+    "solutionShortDescription": "TopNavigations description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

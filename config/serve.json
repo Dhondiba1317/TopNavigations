@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ignatiuzsoftware.sharepoint.com/DhondibaSubsite/SitePages/MyPage.aspx",
+      "customActions": {
+        "7c63bc44-131b-4e16-8268-06f2758ae106": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "topNavigations": {
+      "pageUrl": "https://ignatiuzsoftware.sharepoint.com/DhondibaSubsite/SitePages/MyPage.aspx",
+      "customActions": {
+        "7c63bc44-131b-4e16-8268-06f2758ae106": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
